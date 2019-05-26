@@ -15,7 +15,11 @@
 		6E134E1122908E8A000E48C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E134E0F22908E8A000E48C8 /* LaunchScreen.storyboard */; };
 		6E134E192290C363000E48C8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E134E182290C363000E48C8 /* Country.swift */; };
 		6E134E1B2290D666000E48C8 /* NewRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E134E1A2290D666000E48C8 /* NewRelease.swift */; };
+		6ED74885229A0EBF00CD0B4B /* NewReleaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED74884229A0EBE00CD0B4B /* NewReleaseCollectionViewCell.swift */; };
+		6ED74887229A253600CD0B4B /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED74886229A253600CD0B4B /* UIImageView+DownloadImage.swift */; };
 		6EE0E2262291CE27007A949C /* spotifyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E2252291CE27007A949C /* spotifyServices.swift */; };
+		6EE0E2282294969E007A949C /* NewReleaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E2272294969E007A949C /* NewReleaseResult.swift */; };
+		6EE0E22A2294B6D8007A949C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E2292294B6D8007A949C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +33,11 @@
 		6E134E1222908E8A000E48C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E134E182290C363000E48C8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		6E134E1A2290D666000E48C8 /* NewRelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelease.swift; sourceTree = "<group>"; };
+		6ED74884229A0EBE00CD0B4B /* NewReleaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		6ED74886229A253600CD0B4B /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 		6EE0E2252291CE27007A949C /* spotifyServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyServices.swift; sourceTree = "<group>"; };
+		6EE0E2272294969E007A949C /* NewReleaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseResult.swift; sourceTree = "<group>"; };
+		6EE0E2292294B6D8007A949C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,7 @@
 				6EE0E2242291CDD4007A949C /* Services */,
 				6E134E0422908E88000E48C8 /* AppDelegate.swift */,
 				6E134E0622908E88000E48C8 /* HomeViewController.swift */,
+				6EE0E2272294969E007A949C /* NewReleaseResult.swift */,
 				6E134E0822908E88000E48C8 /* SecondViewController.swift */,
 				6E134E0A22908E88000E48C8 /* Main.storyboard */,
 				6E134E0D22908E8A000E48C8 /* Assets.xcassets */,
@@ -72,6 +81,9 @@
 				6E134E1222908E8A000E48C8 /* Info.plist */,
 				6E134E182290C363000E48C8 /* Country.swift */,
 				6E134E1A2290D666000E48C8 /* NewRelease.swift */,
+				6EE0E2292294B6D8007A949C /* Helper.swift */,
+				6ED74884229A0EBE00CD0B4B /* NewReleaseCollectionViewCell.swift */,
+				6ED74886229A253600CD0B4B /* UIImageView+DownloadImage.swift */,
 			);
 			path = SpotyApp;
 			sourceTree = "<group>";
@@ -159,8 +171,12 @@
 				6E134E192290C363000E48C8 /* Country.swift in Sources */,
 				6E134E0922908E88000E48C8 /* SecondViewController.swift in Sources */,
 				6E134E1B2290D666000E48C8 /* NewRelease.swift in Sources */,
+				6ED74887229A253600CD0B4B /* UIImageView+DownloadImage.swift in Sources */,
 				6E134E0522908E88000E48C8 /* AppDelegate.swift in Sources */,
+				6EE0E2282294969E007A949C /* NewReleaseResult.swift in Sources */,
+				6ED74885229A0EBF00CD0B4B /* NewReleaseCollectionViewCell.swift in Sources */,
 				6E134E0722908E88000E48C8 /* HomeViewController.swift in Sources */,
+				6EE0E22A2294B6D8007A949C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
